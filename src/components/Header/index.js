@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const Header = () => {
@@ -8,12 +9,24 @@ const Header = () => {
         <img src="/imgs/Logo.svg" alt="logo" className="logo" />
         <nav className="navbar">
           <ul className="nav-list">
-            <li className="nav-item">Home</li>
-            <li className="nav-item">About</li>
-            <li className="nav-item">Menu</li>
-            <li className="nav-item">Reservations</li>
-            <li className="nav-item">Order Online</li>
-            <li className="nav-item">Login</li>
+            <li className="nav-item">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">About</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">Menu</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">Reservations</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">Order Online</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">Login</Link>
+            </li>
           </ul>
         </nav>
       </div>
