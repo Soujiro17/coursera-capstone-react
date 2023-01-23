@@ -1,0 +1,31 @@
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-wrapper {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 100%;
+  width: 150px;
+  object-fit: contain;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-item {
+  font-weight: bolder;
+}
