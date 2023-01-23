@@ -1,0 +1,67 @@
+.main-brand {
+  min-height: 450px;
+  height: fit-content;
+  background-color: var(--primary-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title-container {
+  width: 25%;
+}
+
+.title-container > h1 {
+  color: var(--primary-yellow);
+  margin-bottom: 0;
+  font-size: calc(2rem + 1vw);
+}
+
+.title-container > h2,
+h3 {
+  margin: 0;
+  color: var(--white);
+}
+
+.title-container > h2 {
+  margin-bottom: 20px;
+}
+
+.reserve-btn {
+  height: 2.5rem;
+  border-radius: 12px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  color: var(--black);
+  background-color: var(--primary-yellow);
+  font-weight: bolder;
+  transition: 0.2s all;
+  margin-top: 2rem;
+}
+
+.reserve-btn:hover {
+  scale: 1.1;
+}
+
+.reserve-btn:active {
+  scale: 0.9;
+}
+
+.rest-food {
+  height: 450px;
+  width: 370px;
+  object-fit: cover;
+  border-radius: 1rem;
+  transform: translateY(3rem) translateX(30%);
+}
