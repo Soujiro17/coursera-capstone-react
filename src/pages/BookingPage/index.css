@@ -1,0 +1,8 @@
+.booking {
+  background-color: var(--primary-green);
+  color: var(--white);
+  min-height: 837px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
